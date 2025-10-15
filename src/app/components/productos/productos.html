@@ -1,0 +1,6 @@
+<h2> {{ titulo }}</h2>
+
+@for(c of productos.value(); track c.id){
+    {{  c.id }} - {{  c.nombre }} - {{  c.descripcion }} - {{ c.precio }} <br>
+}
+<hr>
